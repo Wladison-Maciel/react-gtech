@@ -1,7 +1,7 @@
-function Button(){
+function Button({ conteudo }) {
     return (
         <>
-        <button> Clique aqui </button>
+            <button>{conteudo}</button>
         </>
     )
 }
